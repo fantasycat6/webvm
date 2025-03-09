@@ -13,11 +13,11 @@ export const args = ["--login"];
 // Optional extra parameters
 export const opts = {
 	// Environment variables
-	env: ["HOME=/home/user", "TERM=xterm", "USER=user", "SHELL=/bin/bash", "EDITOR=vim", "LANG=en_US.UTF-8", "LC_ALL=C"],
+	env: ["HOME=/root", "TERM=xterm", "USER=root", "SHELL=/bin/bash", "EDITOR=vim", "LANG=en_US.UTF-8", "LC_ALL=C"],
 	// Current working directory
-	cwd: "/home/user",
+	cwd: "/root",
 	// User id
-	uid: 1000,
+	uid: 0,
 	// Group id
-	gid: 1000
+	gid: 0
 };
